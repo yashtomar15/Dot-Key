@@ -1,0 +1,94 @@
+#container {
+    display: flex;
+    width: 1350px;
+    height: auto;
+    
+    flex-wrap: wrap;
+}
+
+#box {
+    display: flex;
+    width: 1200px;
+    height: 800px;
+   
+    float: left;
+    margin-left: 75px;
+}
+
+.minibox {
+    width: 650px;
+   height: auto;
+    
+}
+
+.productimg {
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 20px;
+    margin: 5px 5px 5px 5px;
+}
+
+button {
+    border: none;
+}
+
+.head1 {
+    margin-left: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    align-items: left;
+}
+
+#button_cocoa_Vanilla {
+    font-size: x-large;
+    margin-top: 40px;
+    padding: 20px;
+    width: 350px;
+    background-color: rgba(255, 0, 85, 0.664);
+    color: white;
+    margin-left: -50px;
+}
+
+#like {
+   font-size: 40px;
+  
+}
+
+.box2 {
+    display: flex;
+   
+    float: left;
+}
+
+.minibox2 img{
+    height: 50px;
+    margin-left: 90px;
+}
+
+.box3 {
+    width: 565px;
+    height: 500px;
+   
+    margin-left: 75px;
+    border-radius: 20px;
+    background-color: rgba(156, 11, 96, 0.582);
+    color: white;
+    padding-left: 50px;
+}
+
+.head2 {
+  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.newdiv {
+    display: flex;
+   
+    width: 800px;
+    padding-left: 550px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
