@@ -5,9 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
 </head>
 <body>
-    <h1>welocome to dot key</h1>
-    <p>first pera of dot key</p>
+
+    <div id="primeproduct"></div>
+
+    <div id="slider">
+        <div id="slides">
+            <!-- slide button start -->
+            <input type="radio" name="radio-btn" id="radio1" />
+            <input type="radio" name="radio-btn" id="radio2" />
+            <input type="radio" name="radio-btn" id="radio3" />
+            <input type="radio" name="radio-btn" id="radio4" />
+            <input type="radio" name="radio-btn" id="radio5" />
+            <!-- slide button end -->
+            <!-- slide images start -->
+            <div class="first slide" >
+                <img src="//cdn.shopify.com/s/files/1/0361/8553/8692/files/Q3WE.jpg?v=1645512709" alt="" />
+            </div>
+            <div class="slide">
+                <img src="//cdn.shopify.com/s/files/1/0361/8553/8692/files/HAOR.jpg?v=1645512709" alt="" />
+            </div>
+            <div class="slide">
+                <img src="//cdn.shopify.com/s/files/1/0361/8553/8692/files/VIT_C.jpg?v=1645512750" alt="" />
+            </div>
+            <div class="slide">
+                <img src="//cdn.shopify.com/s/files/1/0361/8553/8692/files/ACNE_1.jpg?v=1645512709" alt="" />
+            </div>
+            <div class="slide">
+                <img src="//cdn.shopify.com/s/files/1/0361/8553/8692/files/2131.jpg?v=1645512709" alt="" />
+            </div>
+            <!-- slide images end -->
+            <!-- auto navigate button -->
+            <div class="autoNavigation">
+                <div class="auto_btn1"></div>
+                <div class="auto_btn2"></div>
+                <div class="auto_btn3"></div>
+                <div class="auto_btn4"></div>
+                <div class="auto_btn5"></div>
+            </div>
+            <!-- auto navigate end -->
+        </div>
+           <!-- manual navigate start -->
+           <d class="manNavigation">
+               <label for="radio1" class="man_button"></label>
+               <label for="radio2" class="man_button"></label>
+               <label for="radio3" class="man_button"></label>
+               <label for="radio4" class="man_button"></label>
+               <label for="radio5" class="man_button"></label>
+           </div>
+           <!-- manual navigate end -->
+    </div>
+    <script src="./script/data.js"></script>
+    <script src="./script/home.js"></script>
 </body>
 </html>
