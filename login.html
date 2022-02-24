@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>singup page</title>
+    <script src="https://kit.fontawesome.com/7eb23b8084.js" crossorigin="anonymous"></script>
+    <link rel="styleSheet" href="./Style/navbar.css" />
+    <link rel="stylesheet" href="./Style/login.css"/>
+</head>
+<body>
+     <header id="header">
+        <div id="header-wrapper">
+            <div id="top-bar">
+                <p>3% off on prepaid orders</p>
+            </div>
+            <nav id="navbar">
+                <div id="nav-icon">
+                    <button><i class="fa-solid fa-bars fa-2x"></i></button>
+                </div>
+                
+                <div id="logo">
+                    <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/unnamed_250x_200x_2x_e02a6cf9-c48a-4414-a48f-75fe2e8b2a29_260x.jpg?v=1641192340" alt="">
+                </div>
+                <div id="header-icons">
+                    <div id="input-box">
+                        <i class="fas fa-thin fa-magnifying-glass"></i>
+                        <input type="text" placeholder="search">
+                    </div>
+                    <div id="bag-icon">
+                        <i class="fas fa-thin fa-bag-shopping fa-2x"></i>
+                    </div>
+                    <div id="account-icon">
+                       <i class="fas fa-thin fa-user fa-2x "></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <form id="form">
+        <div>
+        <h2>Login</h2>
+        <button id="facebook_sign"><a href="https://www.facebook.com" target="_blank" style="color:white">Facebook Signup</a></button>
+        <button id="gmail_sign"><a href="https://gmail.com" target="_blank" style="color:white">Google SignUp</a></button>
+         <label class="a">EMAIL</label>
+        <input type="email" class="user" id="email" value="" required/>
+         <label class="a">PASSWORD</label>
+             <small class="smallTag">    
+        <a href ="restPassword.html" id="rps" class ="a" >Forgot?</a>
+            </small>
+            
+        <input type="password" class="user" id="pass" value="" required/>
+        <input type="submit" id = "btn" value="Sing In"/>
+        <a href="signup.html"  target="singup.html">Don't have an account? Sing up here.</a>
+    </div>
+      
+    </form>  
+</body>
+ <script src="./script/login.js"></script>
+</html>
