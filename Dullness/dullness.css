@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui;
+    color: rgb(66, 64, 64);
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+    /* this delete when includ in finel project*/
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+}
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: fit-content;
+    margin: auto;
+
+
+}
+
+#container>div {
+    /* border: 1px solid red; */
+    width: 240px;
+    margin: 15px;
+    text-align: center;
+}
+
+#container>div>img {
+    width: 100%;
+}
+
+#ranking {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+#ranking>p,
+#price>p {
+    margin-top: 0px;
+    padding: 0px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.wrong {
+    text-decoration: line-through;
+    margin-right: 10px;
+    color: rgb(66, 64, 64);
+}
+
+.right {
+    color: #FF6781;
+}
+
+#price {
+    display: flex;
+    justify-content: center;
+}
+
+#container>div>p {
+    margin: 0px;
+    font-weight: 600;
+}
+
+#container>div>button,
+#show>div>button {
+    width: 100%;
+    background-color: #FF6781;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#show {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+#show>img {
+    width: 45%;
+    border-radius: 20px;
+}
+
+#show>div {
+    width: 50%;
+}
+
+#stars {
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#show>div>h1 {
+    margin-bottom: 5px;
+}
+
+#show>div>h2 {
+    margin-bottom: 0px;
+}
+
+#show>div>p {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 3px 0px;
+}
+
+#show>div>button {
+    padding: 10px;
+    font-size: 1.5rem;
+    margin: 30px 0px;
+}
