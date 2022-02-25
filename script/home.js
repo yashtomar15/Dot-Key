@@ -12,7 +12,7 @@ data.map(function displaydata(elm){
     box.append(image,name);
     box.addEventListener("click",bodycare)
     function bodycare(event){
-        location.href="bodycare.html"
+        location.href="/Body_care_Homepage.html/index.html"
     }
     document.querySelector("#primeproduct").append(box);
 })

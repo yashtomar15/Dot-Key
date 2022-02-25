@@ -21,7 +21,7 @@ var bestObj = [
         price: 888.00,
     },
     {
-        img: "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-3_da5bf010-d398-458f-93c7-1a87b5687b44_360x.jpg?v=1638973784",
+        img: "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/VITCSLEEP_360x.jpg?v=1645679320",
         ranking: "&#9733;&#9733;&#9733;&#9733;&#9733;",
         title: "5-IN-1 VITAMIN C GLOW KIT",
         wprice: 1705.00,
@@ -42,14 +42,14 @@ var bestObj = [
         price: 695.00,
     },
     {
-        img: "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard25_360x.jpg?v=1644862534",
+        img: "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-2_20d209d8-1471-4ee3-b4c3-38611b685792_360x.jpg?v=1644915256",
         ranking: "&#9733;&#9733;&#9733;&#9733;&#9733;",
         title: "WATERMELON + VITAMIN C SUPERGLOW FACE CLEANSER",
         wprice: 400.00,
         price: 350.00,
     },
     {
-        img: "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/1_12_360x.webp?v=1644862382",
+        img: "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/2_11_360x.webp?v=1644493946",
         ranking: "&#9733;&#9733;&#9733;&#9733;&#9734;",
         title: "LIP SLEEPING MASK WITH VITAMIN C",
         wprice: 655.00,
@@ -63,7 +63,7 @@ var bestObj = [
         price: 945.00,
     },
     {
-        img: "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/4_10_360x.webp?v=1644494351",
+        img: "https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-3_2_816982c4-ebdf-460b-8f71-da7b4162b5be_360x.jpg?v=1640324376",
         ranking: "&#9733;&#9733;&#9733;&#9733;&#9734;",
         title: "ACNE DEFENSE GREEN CLAY MASK",
         wprice: 750.00,
