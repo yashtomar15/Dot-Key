@@ -67,7 +67,12 @@
             font-size: x-large;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             text-align: center;
-            color: rgba(0, 0, 0, 0.568);
+            color: rgba(0, 0, 0, 0.719);
+        }
+        .cleanbeauty
+        {
+            font-weight: bolder;
+            font-style: italic;
         }
         #box4N
         {
@@ -95,6 +100,44 @@
             font-weight:100;
             font-style: inherit;
             color: rgb(105, 103, 103);
+        }
+        #boxpic6N>div>img
+        {
+            height: 142px;
+            width: 142px;
+        }
+        #review
+        {   
+            display: flex;
+            justify-content:space-between;
+            width: 75%;
+            margin: auto;
+            height:100%;
+        }
+        #review>div>img
+        {
+            width: 230px;
+            height: 230px;
+            border-radius: 5%;
+            /* position: relative; */
+            width: 230px;
+            height: 230px;
+
+        }
+        #review>div>div
+        {   
+            background-color: white;
+            padding:10px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            width: 204px;
+            height: 103px;
+            border-radius: 10px;
+            justify-content: center;
+            margin: auto;
+            /* position: absolute; */
+            /* top: 230px; */
+            width: 203px;
+            height: 103px;
         }
         #boxpic8N
         {
@@ -229,8 +272,8 @@
        <div>
             <h1>CLEAN BEAUTY</h1>
             <p>WITH UNCOMPROMISED EFFICACY</p>
-            <p>We are obsessed with finding the missing dots and details in your skincare routine, and work towards providing the solutions or keys to those.</p>
-          <p>Our revolutionary products are crafted with utmost care and love for you. By blending luxurious botanicals with high performance actives, we bring to you clean formulations that are absolutely safe, delightfully gentle and unquestionably effective.</p>
+            <p>We are obsessed with finding the missing <span class="cleanbeauty">dots</span> and details in your skincare routine, and work towards providing the solutions or <span class="cleanbeauty">keys</span> to those.</p>
+          <p>Our revolutionary products are crafted with utmost care and love for you. By blending <span class="cleanbeauty">luxurious botanicals</span> with <span class="cleanbeauty">high performance actives</span>, we bring to you clean formulations that are absolutely safe, delightfully gentle and unquestionably effective.</p>
           <div class="mainN" id="box4N">
             <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/3-ICONS.png?v=1645770027">
             <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/1-ICONS_b6233563-9f3e-43f6-b158-5205886e2120.png?v=1645779546">
@@ -320,7 +363,59 @@
             <h1>REVIEWS</h1>
         </div>
         <div>
-            <img style="border-radius: 20px;" src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Desktop_homepage_1_625d6233-7ea0-4ac0-891d-4758f494238f.png?v=1643000174">
+            <div id="review">
+                <div style="padding-top: 50px;">
+                    <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/AHASleepMask1.jpg?v=1635159675" alt="">
+                    <div>
+                        <!-- <div style="color: gold;">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div> -->
+                            <div>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <P>
+                            This is my 2nd buy I love it makes me glow in the morning after a long day at work.</P>
+                        <p style="text-align: right;">-Rashmi Shrivastav</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Untitled-1_2.png?v=1634903414" alt="" style="height: 330px;width: 330px;">
+                    <div >
+                        <div style="color: gold;">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div> My acne-prone oily skin issues are finally sorted. Thanks, Dot & Key for this amazing launch.  </div>
+                        <p style="text-align: right;">-Ankita Pugalia</p>
+                    </div>
+                </div>
+                <div style="padding-top: 50px;">
+                    <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Artboard1_2.jpg?v=1635157945" alt="">
+                    <div>
+                        <div style="color: gold;">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div>
+                            I love this moisturiser. It keeps my skin so soft and supple and it's not oily or sticky at all.</div>
+                        <p style="text-align: right;">-Churu Gupta</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="mainN" id="box8N">
