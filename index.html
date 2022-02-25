@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/slide.css" />
+    <link rel="stylesheet" href="./style/sellerslide.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
 
@@ -57,6 +60,85 @@
            </div>
            <!-- manual navigate end -->
     </div>
+
+    <div class="index-text">
+        <div class="LineA">
+          loved by
+        </div>
+        <div class="LineB">
+          over<span> 9 Lakh</span> customers
+        </div>
+      </div>
+<!-- second slide -->
+      <div id="secondslide">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/ikwi_DESKTOP_banner_resize_7.jpg?v=1645683907">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/ikwi_DESKTOP_banner_resize_2_4.jpg?v=1645686708">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/4-Offer_banner_Desktop.png?v=1644815997" style="width:100%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+      </div>
+      <!-- second slide end -->
+
+      <!-- best seller -->
+      <div class="your-kit-title">OUR<br><span>BESTSELLERS</span></div>
+
+      <div class="categoty-s">
+        <span class="change active" id="change1" onclick="changeCategory(id)">SKIN</span> 
+        | <span class="change" id="change2" onclick="changeCategory(id)">BODYCARE</span> 
+        | <span class="change" id="change3" onclick="changeCategory(id)">NUTRITION</span>
+         | <span class="change" id="change4" onclick="changeCategory(id)">HAIRCARE</span>
+      </div>
+
+      <!-- product slider -->
+
+      <div class="prodslide">      
+
+      </div>
+<!-- spotlight  images -->
+      <div class="your-kit-title spot">IN THE<br>
+        <span>SPOTLIGHT</span></div>
+
+        <div class="shop">
+          <div class="small">
+            <a >
+              <img  style="height:400px;" src="//cdn.shopify.com/s/files/1/0361/8553/8692/files/moist_small_b8708236-1509-4655-95ce-bc9725cefb9e.png?v=1643032910"></a>  	
+          </div>
+          <div class="large">
+            <a ><img style="height:400px;" src="//cdn.shopify.com/s/files/1/0361/8553/8692/files/5-4-block-banner.png?v=1643032608"></a>  	
+          </div>  
+        </div>
+        <div class="shop2">
+          <div class="large2">
+            <a ><img style="height:400px;" src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Artboard_1-5.jpg?v=1643114017"></a>
+          </div>
+          <div class="small2">
+            <a><img style="height:400px;"  src="//cdn.shopify.com/s/files/1/0361/8553/8692/files/25_OFF_ON_COMBOS_5_aef701ca-2bfd-4fd8-ab3c-d5a40944b230.png?v=1642097973" /></a>
+          </div>
+        </div>
+        <div class=shop3>
+          <img src="//cdn.shopify.com/s/files/1/0361/8553/8692/files/Desktop_homepage_1_625d6233-7ea0-4ac0-891d-4758f494238f.png?v=1643000174">
+        </div>
+
     <script src="./script/data.js"></script>
     <script src="./script/home.js"></script>
 </body>
