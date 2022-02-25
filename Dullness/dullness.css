@@ -5,7 +5,7 @@ body {
     color: rgb(66, 64, 64);
 }
 
-img {
+#firstImg {
     width: 100%;
     border-radius: 20px;
     margin-top: 20px;
@@ -13,7 +13,12 @@ img {
 }
 .heading{
     text-align: center;
-    font-size: 40px;
+    margin-top: 25px;
+    font-size: 35px;
+    color: #3c3c3c;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing:2px;
 }
 #container {
     display: grid;
@@ -34,7 +39,10 @@ img {
 #container>div>img {
     width: 100%;
 }
-
+#details{
+    height: 30%;
+    padding: 5%;
+}
 #ranking {
     display: flex;
     justify-content: space-between;
