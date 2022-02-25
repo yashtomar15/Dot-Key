@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's New</title>
+    <link rel="stylesheet" href="./style/product.css">
+    <link rel="stylesheet" href="./style/manu.css">
+    <style>
+            #logo{
+            display: flex;
+            flex-wrap: wrap;
+            width: 60vw;
+            margin:50px auto;
+        }
+        #logo>div{
+            display: flex;
+            width:150px;
+            height: 200px;
+
+            align-items: center;
+            /* justify-content: center; */
+            flex-direction: column;
+            /* border: 2px solid black; */
+            margin:auto;
+        }
+        #logo>div>img{
+            /* border: 2px solid black; */
+           
+            height: 100px;
+            width: 100px;
+            
+        }
+        #logo>div>p{
+            margin: 0px;
+            display: inline;
+            text-align: center;
+            font-size: 23px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="nav">
+        <img src="menu.JPG" alt="Img" onclick="hideToggle()" id="menuShow" >
+        <img src="menu close.JPG" alt="Img" onclick="hideToggle()" id="menuClose" >
+    </div>
+    <div id="menu">
+        <div>
+            <div>
+                <a href="">WHAT'S NEW?</a>
+                <a href="">BEST SELLERS</a>
+                <a href="">BY CONCERN</a>
+                <a href="">ALL PRODUCTS</a>
+                <a href="">BODYCARE RANGE</a>
+                <a href="">NEW HAIR CARE RANGE</a>
+                <a href="">MERCH STORE</a>
+                
+            </div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Creative_02_Burger_Menu_Size_-_687px_X_360px_1_2_1a9dda0b-deaf-42cc-ad7f-680b2573a82b.png?v=1644901224" id="menuShow" alt="Img" >
+                
+            </div>
+        </div>
+    </div>
+    
+    <img id="firstimg" src="https://cdn.shopify.com/s/files/1/0361/8553/8692/collections/New-arrival-2_1512x.jpg?v=1639679157"
+        alt="Img">
+    <div id="container"></div>
+    <div id="lastdiv">
+        <div id="show"></div>
+        <div id="logo">
+            
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/botanicals_180x.png?v=1595224325" alt="" srcset="">
+                <p>with natural botanicals</p>
+            </div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/cruelty_180x.png?v=1595224363" alt="">
+                <p>cruelty free</p>
+            </div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/No_Nasty_Chemicals_180x.png?v=1595054023" alt="">
+                <p>no nasty chemicals</p>
+            </div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Dermatologically_Tested_8af2bdb9-b8b2-4683-95b7-cdc5ca4e59d8_180x.png?v=1595053961" alt="">
+                <p>dermatologically tested</p>
+            </div>
+            
+        </div>
+    <script src="./Script/new.js"></script>
+   <script src="./Script/menu.js"></script>
+</body>
+
+</html>
