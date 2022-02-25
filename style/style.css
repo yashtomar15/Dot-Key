@@ -1,3 +1,4 @@
+
 #primeproduct{
     /* width:75%; */
     display:grid;
@@ -36,6 +37,7 @@
 #slider{
     overflow: hidden;
       height:420px;
+      width:100%;
       border-radius: 10px;
 }
 #slides{
@@ -43,6 +45,7 @@
    width:500%;
    height:420px;
    margin-top:10px;
+   overflow:hidden;
 }
 #slides input{
     display:none;
@@ -57,24 +60,24 @@
     height:420px;
     border-radius:20px;
 }
-.firstslide>img{
-    width: 100%;
-    border-radius:20px;
-}
+
 /* manual button navigation */
 .manNavigation{
     position:absolute;
-    width:100%;
+    width:95%;
     display:flex;
     justify-content: center;
 }
 .man_button{
     border:1px solid grey;
-    padding:4px;
+    padding:5px;
     border-radius:10px;
     cursor:pointer;
     transition:2s;
     margin:5px;
+}
+.man_button:hover{
+    background: grey;
 }
 
 #radio1:checked~ .first{
@@ -93,33 +96,55 @@
     margin-left:-80%;
 }
 /* auto navigation button */
-.autoNavigation{
+ .autoNavigation{
 position:absolute;
 display:flex;
 justify-content: center;
-width:100%;
-margin-top:30.7%
+margin-left:43.51%;
+margin-top:31.1%;
+cursor:pointer;
 }
 
 .autoNavigation div{
      border:1px solid grey;;
-     padding:4px;
+     padding:5px;
      border-radius:10px;
     transition:1s;
     margin:5px;
+
+
+} 
+#radio1:checked ~ .autoNavigation .auto_btn1{
+     background-color:grey;
 }
-#radio1:checked ~ .autoNavigation>.auto-btn1{
+#radio2:checked ~ .autoNavigation .auto_btn2{
+    background: grey;
+}
+#radio3:checked ~ .autoNavigation .auto_btn3{
     background-color: grey;
 }
-#radio2:checked ~ .autoNavigation>.auto-btn2{
+#radio4:checked ~ .autoNavigation .auto_btn4{
     background-color: grey;
 }
-#radio3:checked ~ .autoNavigation>.auto-btn3{
+#radio5:checked ~ .autoNavigation .auto_btn5{
     background-color: grey;
+} 
+
+/* text css*/ 
+.index-text {
+        text-align: center;
+        line-height: 1.4;
+        margin-top: 5%;
+       font-family:roboto;
 }
-#radio4:checked ~ .autoNavigation>.auto-btn4{
-    background-color: grey;
+.LineA{
+    font-weight:100;
+    font-size:26px;
 }
-#radio5:checked ~ .autoNavigation>.auto-btn5{
-    background-color: grey;
+.LineB{
+    font-size: 50px;
+}
+.LineB span {
+    font-style: italic;
+    font-weight: 1000;
 }
