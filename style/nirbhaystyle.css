@@ -1,0 +1,162 @@
+
+        #container2
+        {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #container2>.mainN
+        {
+            padding-top: 80px;
+        }
+        .mainN>div>p
+        {
+            font-size:large;
+            text-align: center;
+        }
+        .mainN>div>h1
+        {
+            font-style: italic;
+            text-align: center;
+        }
+        .mainN>div>h2
+        {
+            font-style: italic;
+            text-align: center;
+        }
+        .mainN>div>h2
+        {
+            text-align: center;
+        }
+        .mainN>div>h3
+        {
+            text-align: center;
+        }
+        .mainN>div
+        {
+            text-align: center;
+            margin: auto;
+        }
+        #boxpic1N
+        {
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            grid-template-rows:auto;
+            gap: 20px;
+            text-align: center;
+            width: 75%;
+        }
+        #boxpic1N>img
+        {
+            width: 559px;
+            height: 347px;
+        }
+        #box3N
+        {
+            width: 75%;
+            margin: auto;
+            padding-top: 20px;
+        }
+        #box3N>div>p
+        {
+            font-size: x-large;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.568);
+        }
+        #box4N
+        {
+            display: flex;
+            width: 70%;
+            margin: auto;
+        }
+        #box4N>div>p
+        {
+            width: 60%;
+            margin: auto;
+            font-family:monospace;
+        }
+        #boxpic6N
+        {
+            display: flex;
+            width: 80%;
+            margin: auto;
+        }
+        #boxpic6N>div>h2
+        {
+            margin: 10px;
+            font-weight:100;
+            font-style: inherit;
+            color: rgb(105, 103, 103);
+        }
+        #boxpic8N
+        {
+            display: flex;
+            margin: auto;
+            justify-content: center;
+        }
+        .slideshow-containerN{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            position: relative;
+            margin: auto;
+            color: rgba(0, 0, 0, 0.712);
+            }
+
+            /* Hide the images by default */
+            .mySlidesN {
+            display: none;
+            }
+
+            /* Next & previous buttons */
+            .prevN, .nextN {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            }
+
+            /* Position the "next button" to the right */
+            .nextN{
+            right: 0;
+            border-radius: 3px 0 0 3px;
+            }
+
+            /* On hover, add a black background color with a little bit see-through */
+            .prevN:hover, .nextN:hover {
+            background-color: rgba(0,0,0,0.8);
+            }
+
+
+            #slidebox1
+            {
+                display: flex;
+                margin: auto;
+                padding: auto;
+                padding: 10px;
+            }
+            #slidebox2
+            {
+                display: flex;
+                margin: auto;
+                padding: auto;
+                padding: 10px   ;
+               
+            }
+            #slidebox3
+            {
+                display: flex;
+                margin: auto;
+                padding: auto;
+                padding: 10px;
+
+            }
+
+    
+    
