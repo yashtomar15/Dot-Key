@@ -4,6 +4,10 @@ body {
     font-family: system-ui;
     color: rgb(66, 64, 64);
 }
+.firstimg{
+    padding-top:150px;
+
+}
 
 img {
     width: 100%;
@@ -118,6 +122,36 @@ img {
     padding: 10px;
     font-size: 1.5rem;
     margin: 30px 0px;
+}
+#logos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    margin:50px auto;
+}
+#logos>div{
+    display: flex;
+    width:150px;
+    height: 200px;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    margin:auto;
+}
+#logos>div>img{
+    border: 2px solid black;
+   
+    height: 100px;
+    width: 100px;
+    
+}
+#logo>div>p{
+    margin: 0px;
+    display: inline;
+    text-align: center;
+    font-size: 23px;
 }
 /* for medium  */
 @media all and (min-width:501px)and (max-width:960px){
