@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bag page</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        #parent{
+            width: 98vw;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.219);
+            position: fixed;
+            right: 0px;
+            left:0px;
+            /* display: none; */
+            
+        }
+        #parent>div{
+            width: 30vw;
+            height: 100vh;
+
+            background-color: white;
+            padding: 10px;
+            position: fixed;
+            right: 0px;
+            top:0px
+        }
+        #parent>div>div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #parent>div>div>img{
+            width: 30px;
+            height: 30px;
+        }
+        /* h1 ,this css for only devlopment not nesesrly , you can deny  */
+        h1{
+            text-align: end;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+   <h1 onclick="bag()"> Bage Img</h1> <!--replace by navebar bag img-->
+    <div id="parent">
+        <div>
+            <div>
+                <h2>This is bag</h2>
+                <img onclick="bag()" src="menu close.JPG" alt="">
+
+            </div>
+            <div >There is no data found</div>   <!-- content div  You have to create table in this div-->
+        </div>
+    </div>
+    <script>
+        var bagdiv = document.getElementById("parent")
+        bagdiv.style.display = "none"
+        function bag() {
+            console.log(bagdiv)
+            if(bagdiv.style.display != "none"){
+                bagdiv.style.display = "none";
+            }
+            else{
+                bagdiv.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>
