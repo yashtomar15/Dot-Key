@@ -21,8 +21,8 @@ function  formSubmit(event)
     }
     if(flag == true)
     {
-        alert("login successfull");
-        window.location.href = "index.html"
+        // alert("login successfull");
+        location.href = "home.html"
     }
     else{
         alert("wrong");
