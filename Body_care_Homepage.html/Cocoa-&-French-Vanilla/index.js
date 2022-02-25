@@ -36,10 +36,11 @@ function like() {
 
     var like = document.getElementById("like");
 
-    if (like.innerText = "🔳") {
+    if (like.innerText = "🤍") {
         like.innerText = "🖤"
     }
-    else {
-        like.innerText = "🔳"
+    else{
+        like.innerText = "🤍"
     }
+   
 }
