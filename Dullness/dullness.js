@@ -267,12 +267,12 @@ function show(show) {
 }
 
 
-var localCart = JSON.parse(localStorage.getItem("addCart"))
+var localCart = JSON.parse(localStorage.getItem("dullCart"))
 
 function addCart(value) {
     if (localCart === null) {
         localCart = []
     }
     localCart.push(bestObj[value])
-    localStorage.setItem("addCart", JSON.stringify(localCart))
+    localStorage.setItem("dullCart", JSON.stringify(localCart))
 }
