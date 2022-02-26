@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui;
+            color: rgb(66, 64, 64);
+        }
+
+        #header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 2;
+        }
+
+        #top-bar {
+            width: 100%;
+            height: 30px;
+            color: white;
+            background-color: #3c3c3c;
+            vertical-align: center;
+
+        }
+
+        #top-bar>p {
+            font-size: 13px;
+            line-height: 30px;
+            font-family: Ubuntu, sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            /* padding:10px 0; */
+            text-align: center;
+        }
+
+        #navbar {
+            background-color: white;
+            padding: 10px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #c3c3c3;
+        }
+
+        #logos {
+            margin: 0 26px;
+        }
+
+        #nav-icon {
+            flex: 1 1 130px;
+        }
+
+        #header-icons {
+            flex: 1 1 130px;
+        }
+
+        button {
+            border: none;
+            color: #3c3c3c;
+        }
+
+        #input-box,
+        #bag-icon,
+        #account-icon {
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        #input-box>input {
+            border: 1px solid #c3c3c3;
+            border-radius: 5px;
+            background-color: transparent;
+            padding: 0 30px;
+            height: 38px;
+            min-width: 300px;
+        }
+
+        #input-box {
+
+            display: inline-block;
+            vertical-align: middle;
+            padding: 7.5px 15px;
+            color: #3c3c3c;
+            white-space: nowrap;
+            position: relative;
+        }
+
+        #input-box>i {
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 4px;
+            font-size: 20px;
+        }
+
+        #input-box>input::placeholder {
+            font-size: 20px;
+        }
+
+        #bag-icon>.bagicon {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* #account-icon > i{
+            padding: 0 10px;
+            color: #c3c3c3;
+        } */
+        .icon {
+            width: 20px;
+            height: 20px;
+        }
+
+        a {
+            color: #c3c3c3;
+
+        }
+
+        /* manue csss */
+        #menuShow,
+        #menuClose {
+            width: 30px;
+            margin: 20px;
+        }
+
+        #menuClose {
+            display: none;
+        }
+
+        #menu {
+            position: fixed;
+            bottom: 0px;
+            height: 79%;
+            width: 100%;
+            left: 0px;
+            display: none;
+            background-color: rgba(0, 0, 0, 0.527);
+
+        }
+
+        #menu>div {
+            display: flex;
+            width: 100%;
+            /* border: 1px solid red; */
+            position: fixed;
+            bottom: 25px;
+            background-color: white;
+            margin: auto;
+        }
+
+        #menu>div>div {
+            width: 50%;
+            /* border: 1px solid red; */
+
+        }
+
+        #menu>div>div>a {
+            text-decoration: none;
+            color: rgb(66, 64, 64);
+            font-size: 1.2rem;
+            display: block;
+            margin: 20px;
+            font-weight: 600;
+        }
+
+        #menu>div>div:last-child {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-left: 4px solid grey;
+
+
+        }
+
+        #menu>div>div>img {
+            width: 85%;
+
+        }
+
+        /* bag css */
+        #parent {
+            width: 100vw;
+            height: 79vh;
+            background-color: rgba(0, 0, 0, 0.596);
+            position: fixed;
+            right: 0px;
+            left: 0px;
+            bottom: 0px;
+            z-index: 2;
+
+        }
+
+        #parent>div {
+            width: 30vw;
+            height: 100vh;
+            background-color: white;
+            padding: 10px;
+            position: fixed;
+            right: 0px;
+            top: 0px;
+        }
+
+        #parent>div>div:first-child {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 30px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid gray;
+        }
+
+        #parent>div>div>img {
+            width: 20px;
+            height: 20px;
+        }
+
+        /* h1 ,this css for only devlopment not nesesrly , you can deny  */
+        h1 {
+            text-align: end;
+            margin-right: 10px;
+        }
+        .placedata{
+            height:50% ;
+            overflow-y:scroll;
+        }
+        .showprod {
+            display: flex;
+            /* justify-content: space-between; */
+            padding-bottom: 10px;
+            border-bottom: 1px solid gray;
+        }
+
+        .showprod>div>p {
+            padding: 5px;
+            font-size: 1.3rem;
+            /* font-weight: 600; */
+        }
+
+        .showprod>div>p:last-child {
+            text-align: end;
+        }
+
+        .total {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            padding-left: 0px;
+        }
+
+        .total>h2 {
+            letter-spacing: 2px;
+            margin-left: 0px;
+        }
+
+        .total>p {
+            font-size: 1.3rem;
+        }
+
+        .bagimage {
+            width: 120px;
+            height: 120px;
+        }
+        #checkout{
+            width: 95%;
+            margin-top: 20px;
+            background-color: #FF6781;
+            color: white;
+            font-size: 1.3rem;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div id="header-wrapper">
+            <div id="top-bar">
+                <p>3% off on prepaid orders</p>
+            </div>
+            <nav id="navbar">
+                <div id="nav-icon">
+                    <div id="nav">
+                        <img src="menu.JPG" alt="Img" onclick="hideToggle()" id="menuShow">
+                        <img src="menu close.JPG" alt="Img" onclick="hideToggle()" id="menuClose">
+                    </div>
+                    <div id="menu">
+                        <div>
+                            <div>
+                                <a href="What's_New.html">WHAT'S NEW?</a>
+                                <a href="Seller.html">BEST SELLERS</a>
+                                <a href="">BY CONCERN</a>
+                                <a href="">ALL PRODUCTS</a>
+                                <a href="bodycare.html">BODYCARE RANGE</a>
+                                <a href="bodycare.html">NEW HAIR CARE RANGE</a>
+                                <a href="">MERCH STORE</a>
+
+                            </div>
+                            <div>
+                                <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Creative_02_Burger_Menu_Size_-_687px_X_360px_1_2_1a9dda0b-deaf-42cc-ad7f-680b2573a82b.png?v=1644901224"
+                                    id="menuShow" alt="Img">
+
+                            </div>
+                        </div>
+                    </div>
+                    <script src="./Script/menu.js"></script>
+                </div>
+
+                <div id="logo">
+                    <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/unnamed_250x_200x_2x_e02a6cf9-c48a-4414-a48f-75fe2e8b2a29_260x.jpg?v=1641192340"
+                        alt="">
+                </div>
+                <div id="header-icons">
+                    <div id="input-box">
+                        <i class="fas fa-thin fa-magnifying-glass"></i>
+                        <input type="text" placeholder="search">
+                    </div>
+                    <div id="bag-icon">
+                        <div class="bagicon">
+                            <svg onclick="bag()" viewBox="-35 0 512 512.00102" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="m443.054688 495.171875-38.914063-370.574219c-.816406-7.757812-7.355469-13.648437-15.15625-13.648437h-73.140625v-16.675781c0-51.980469-42.292969-94.273438-94.273438-94.273438-51.984374 0-94.277343 42.292969-94.277343 94.273438v16.675781h-73.140625c-7.800782 0-14.339844 5.890625-15.15625 13.648437l-38.9140628 370.574219c-.4492192 4.292969.9453128 8.578125 3.8320308 11.789063 2.890626 3.207031 7.007813 5.039062 11.324219 5.039062h412.65625c4.320313 0 8.4375-1.832031 11.324219-5.039062 2.894531-3.210938 4.285156-7.496094 3.835938-11.789063zm-285.285157-400.898437c0-35.175782 28.621094-63.796876 63.800781-63.796876 35.175782 0 63.796876 28.621094 63.796876 63.796876v16.675781h-127.597657zm-125.609375 387.25 35.714844-340.097657h59.417969v33.582031c0 8.414063 6.824219 15.238282 15.238281 15.238282s15.238281-6.824219 15.238281-15.238282v-33.582031h127.597657v33.582031c0 8.414063 6.824218 15.238282 15.238281 15.238282 8.414062 0 15.238281-6.824219 15.238281-15.238282v-33.582031h59.417969l35.714843 340.097657zm0 0">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div id="account-icon">
+                        <a href="login.html">
+                            <div class="icon">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                                    style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M256,0c-74.439,0-135,60.561-135,135s60.561,135,135,135s135-60.561,135-135S330.439,0,256,0z M256,240
+                                                c-57.897,0-105-47.103-105-105c0-57.897,47.103-105,105-105c57.897,0,105,47.103,105,105C361,192.897,313.897,240,256,240z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M297.833,301h-83.667C144.964,301,76.669,332.951,31,401.458V512h450V401.458C435.397,333.05,367.121,301,297.833,301z
+                                                 M451.001,482H451H61v-71.363C96.031,360.683,152.952,331,214.167,331h83.667c61.215,0,118.135,29.683,153.167,79.637V482z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id="parent">
+        <div>
+            <div>
+                <h1>Bag</h1>
+                <img onclick="bag()" src="menu close.JPG" alt="">
+            </div>
+            <div class="placedata"></div> <!-- content div  You have to create table in this div-->
+            <div class="total">
+                <h2>SUBTOTAL</h2>
+            </div>
+            <p>FREE SHIPPING OVER Rs.599/-</p>
+            <button id="checkout">Checkout</button>
+        </div>
+    </div>
+</body>
+<script>
+    // this js for show & hide bag box
+    var bagdiv = document.getElementById("parent")
+    bagdiv.style.display = "none"
+    function bag() {
+        console.log(bagdiv)
+        if (bagdiv.style.display != "none") {
+            bagdiv.style.display = "none";
+        }
+        else {
+            bagdiv.style.display = "block"
+        }
+    }
+    // for show data 
+    var data = JSON.parse(localStorage.getItem("addCart"))
+    console.log(data.length)
+    var totalPrice = 0
+    var p = 0
+    data.map(function (elem) {
+        var maindiv = document.createElement("div")
+        maindiv.setAttribute("class", "showprod")
+        var img = document.createElement("img")
+        img.setAttribute("src", elem.img)
+        img.setAttribute("class", "bagimage")
+        var desp = document.createElement("p")
+        desp.innerText = elem.title;
+        var price = document.createElement("p")
+        price.innerHTML = "Rs: " + elem.price + ".00"
+        totalPrice += elem.price
+        p++
+        var div = document.createElement("div")
+        div.append(desp, price)
+        maindiv.append(img, div)
+        document.querySelector(".placedata").append(maindiv)
+        if (data.length === p) {
+            console.log("I m fire")
+            var tp = document.createElement("p")
+            tp.innerText = "Rs: " + totalPrice + ".00"
+            document.querySelector(".total").append(tp)
+        }
+
+    })
+
+</script>
+<script src="./Script/menu.js"></script>
+
+</html>
