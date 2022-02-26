@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./style/product.css" />
     <link rel="stylesheet" href="./style/manu.css" />
     <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="stylesheet" href="./style/bag.css" />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
@@ -30,6 +32,13 @@
      <div id="show"></div>
 
      <script src="./script/seller.js" ></script>
-    </body>
 
+     <!-- fotter code -->
+    <div id="footer_placeholder"></div>
+    <script>
+        $(function(){
+          $("#footer_placeholder").load("footer.html");
+        });
+    </script>
+    </body>
 </html>

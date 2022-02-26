@@ -56,6 +56,7 @@ var prodarr=[{
 }
     ]
 
+    // product slider
     prodslide.map(function storeprod(elm){
         localStorage.setItem("prodslide",JSON.stringify(prodslide))
     })

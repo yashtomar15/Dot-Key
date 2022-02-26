@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./style/product.css">
     <link rel="stylesheet" href="./style/manu.css">
     <link rel="Stylesheet" href="./Style/navbar.css"/>
+    <link rel="Stylesheet" href="./Style/footer.css"/>
+    <link rel="Stylesheet" href="./Style/bag.css"/>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
@@ -50,8 +52,17 @@
             </div>
             
         </div>
-    <script src="./Script/new.js"></script>
-   <script src="./Script/menu.js"></script>
+        <script src="./Script/new.js"></script>
+
+
+        <!-- Footer code -->
+<div id="footer_placeholder"></div>
+<script>
+    $(function(){
+      $("#footer_placeholder").load("footer.html");
+    });
+</script>
+<!-- <script src="./Script/new.js"></script> -->
 </body>
 
 </html>

@@ -6,15 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best skin solution</title>
-    <link rel="stylesheet" href="dullness.css">
+
+    <link rel="stylesheet" href="./style/dullness.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="stylesheet" href="./Style/navbar.css"/>
+    <link rel="stylesheet" href="./Style/manu.css"/>
+    <link rel="stylesheet" href="./Style/manu.css"/>
+    <link rel="stylesheet" href="./Style/bag.css"/>
+    <script src="https://kit.fontawesome.com/7eb23b8084.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script> 
+
 </head>
 
 <body>
-    <img id="firstImg" src="https://cdn.shopify.com/s/files/1/0361/8553/8692/collections/By-catagory-7_1944x.png?v=1642098368" alt="">
+    <!-- navbar code start -->
+  <div id="nav_placeholder">
+
+</div> -->
+ <script>
+  $(function(){
+    $("#nav_placeholder").load("navbar.html");
+  });
+</script>
+  <!-- navbar code end -->
+
+   <img id="firstImg" style="padding-top:120px;"  src="https://cdn.shopify.com/s/files/1/0361/8553/8692/collections/By-catagory-7_1944x.png?v=1642098368" alt="">
     <div class="heading">Skin Glow</div>
     <div id="container"></div>
     <div id="show"></div>
-    <script src="dullness.js"></script>
+  
+ <script src="./script/dullness.js"></script>   
+
+    <!-- Footer code -->
+<div id="footer_placeholder"></div>
+<script>
+    $(function(){
+      $("#footer_placeholder").load("footer.html");
+    });
+</script>
 </body>
 
 </html>
