@@ -5,132 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best skin solution</title>
-    <style>
-        body {
-            margin: 0px;
-            padding: 0px;
-            font-family: system-ui;
-            color: rgb(66, 64, 64);
-        }
-
-        img {
-            width: 100%;
-            border-radius: 20px;
-            margin-top: 20px;
-            /* this delete when includ in finel project*/
-        }
-
-        #container {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            width: fit-content;
-            margin: auto;
-
-
-        }
-
-        #container>div {
-            /* border: 1px solid red; */
-            width: 240px;
-            margin: 15px;
-            text-align: center;
-        }
-
-        #container>div>img {
-            width: 100%;
-        }
-
-        #ranking {
-            display: flex;
-            justify-content: space-between;
-            padding: 0px 10px;
-        }
-
-        #ranking>p,
-        #price>p {
-            margin-top: 0px;
-            padding: 0px;
-            font-weight: 600;
-            font-size: 13px;
-        }
-
-        .wrong {
-            text-decoration: line-through;
-            margin-right: 10px;
-            color: rgb(66, 64, 64);
-        }
-
-        .right {
-            color: #FF6781;
-        }
-
-        #price {
-            display: flex;
-            justify-content: center;
-        }
-
-        #container>div>p {
-            margin: 0px;
-            font-weight: 600;
-        }
-
-        #container>div>button,
-        #show>div>button {
-            width: 100%;
-            background-color: #FF6781;
-            color: white;
-            border: none;
-            font-size: 1rem;
-            font-weight: bold;
-            padding: 5px;
-        }
-
-        #show {
-            display: flex;
-            padding: 20px;
-            justify-content: space-between;
-        }
-
-        #show>img {
-            width: 45%;
-            border-radius: 20px;
-        }
-
-        #show>div {
-            width: 50%;
-        }
-
-        #stars {
-            font-size: 30px;
-            margin: 0px;
-            padding: 0px;
-        }
-
-        #show>div>h1 {
-            margin-bottom: 5px;
-        }
-
-        #show>div>h2 {
-            margin-bottom: 0px;
-        }
-
-        #show>div>p {
-            font-size: 1.2rem;
-            font-style: italic;
-            margin: 3px 0px;
-        }
-
-        #show>div>button {
-            padding: 10px;
-            font-size: 1.5rem;
-            margin: 30px 0px;
-        }
-    </style>
+    <title>Best Seller</title>
+    <link rel="stylesheet" href="./style/product.css" />
+    <link rel="stylesheet" href="./style/manu.css" />
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
-    <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/collections/shop-all_mobile_1296x.jpg?v=1642098283"
+     <!-- navbar code start -->
+  <div id="nav_placeholder">
+
+</div>
+<script>
+  $(function(){
+    $("#nav_placeholder").load("navbar.html");
+  });
+</script>
+  <!-- navbar code end -->
+
+    <img class="firstimg" src="https://cdn.shopify.com/s/files/1/0361/8553/8692/collections/shop-all_mobile_1296x.jpg?v=1642098283"
         alt="">
     <div id="container"></div>
     <div id="show"></div>
