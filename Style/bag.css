@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+}
+#parent{
+    width: 98vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.219);
+    position: fixed;
+    right: 0px;
+    left:0px;
+    /* display: none; */
+    
+}
+#parent>div{
+    width: 30vw;
+    height: 100vh;
+
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    right: 0px;
+    top:0px
+}
+#parent>div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#parent>div>div>img{
+    width: 30px;
+    height: 30px;
+}
+/* h1 ,this css for only devlopment not nesesrly , you can deny  */
+h1{
+    text-align: end;
+    margin-right: 10px;
+}
+.showprod{
+    display:flex;
+justify-content: space-between;
+}
+.total{
+    display:flex;
+}
+.bagimage{
+    width:120px;
+    height:120px;
+}

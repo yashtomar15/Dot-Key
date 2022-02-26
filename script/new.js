@@ -374,12 +374,12 @@ function likediv() {
     }
 }
 
-var localCart = JSON.parse(localStorage.getItem("newaddCart"))
+var localCart = JSON.parse(localStorage.getItem("addCart"))
 
 function addCart(value) {
     if (localCart === null) {
         localCart = []
     }
     localCart.push(newObj[value])
-    localStorage.setItem("newaddCart", JSON.stringify(localCart))
+    localStorage.setItem("addCart", JSON.stringify(localCart))
 }
