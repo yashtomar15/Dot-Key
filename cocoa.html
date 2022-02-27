@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocoa-&-French-Vanilla</title>
+    <link rel="stylesheet" href="./style/cocoa.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="Stylesheet" href="./Style/navbar.css"/>
+    <link rel="Stylesheet" href="./Style/manu.css"/>
+    <script src="https://kit.fontawesome.com/7eb23b8084.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+ <!-- navbar code start -->
+ <div id="nav_placeholder">
+
+</div>
+<script>
+  $(function(){
+    $("#nav_placeholder").load("navbar.html");
+  });
+</script>
+  <!-- navbar code end -->
+
+    <div id="container">
+        <center>
+            <div id="box">
+                <div class="minibox">
+                    <div class="productimg" style="cursor: zoom-in;">
+                        <img id="image"
+                            src="https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-6_360x.jpg?v=1644862704"
+                            alt="">
+                    </div>
+                    <div class="productimg_2">
+                        <button onclick="ChangeImg1()">
+                            <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-6_360x.jpg?v=1644862704"
+                                alt="" class="mini_img">
+                        </button>
+                        <button onclick="ChangeImg2()">
+                            <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1_15_360x.jpg?v=1644862704"
+                                alt="" class="mini_img">
+                        </button>
+                        <button onclick="ChangeImg3()">
+                            <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-5_360x.jpg?v=1644862704"
+                                alt="" class="mini_img">
+                        </button>
+                        <button onclick="ChangeImg4()">
+                            <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-4_360x.jpg?v=1644862704"
+                                alt=""  class="mini_img">
+                        </button>
+                        <button onclick="ChangeImg5()">
+                            <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-3_360x.jpg?v=1644862704"
+                                alt=""  class="mini_img">
+                        </button>
+                        <button onclick="ChangeImg6()">
+                            <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/products/Artboard1-2_0e90978d-13d9-458e-86e9-6f8cc9b3633e_360x.jpg?v=1644862704"
+                                alt=""  class="mini_img">
+                        </button>
+                    </div>
+                </div>
+                <div class="minibox_1">
+                    <h1 class="product_heading_1">COCOA RICH BODY BUTTER WITH 10% </h1>
+                    <br>
+                    <h1 class="product_heading_1_1"> SHEA</h1>
+                    <h2 class="product_rating">&#9733&#9733&#9733&#9733&#9733 <a href="#">27 Reviews</a></h2>
+                    <h1 class="product_price"><del>Rs: 595.00</del> <span class="product_price_colored">Rs:
+                            535.50</span></h1>
+                    <p class="product_sub_heading">Inclusive of All Taxes</p>
+                    <p class="product_size">SIZE</p>
+                    <button class="product_size_quantity">200 ml</button>
+                    <br>
+                    <button id="button_cocoa_Vanilla">ADD TO CART</button>
+                    <button id="like" onclick="like()">🤍</button>
+                    <h4 class="product_para">A warm, melt-in-your-skin body butter with the goodness of</h4>
+                    <h4 class="product_para">10% shea & cocoa butter for intense hydration leaving skin</h4>
+                    <h4 class="product_para">ultra-soft, smooth & glowing with the lingering essence of</h4>
+                    <h4 class="product_para">vanilla.</h4>
+                    <h1 class="product_heading_3">Feel the <span class="product_heading_3_span"> Love</span></h1>
+                    <div class="box2">
+                        <div class="minibox_sample_img">
+                            <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Intensely_Moisturize.png?v=1636455493"
+                                alt="">
+                                <h1 class="product_heading_5">Intensely</h1>
+                                <h1 class="product_heading_5">moisturizes</h1>
+                            
+                        </div>
+                        <div class="minibox_sample_img">
+                            <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Reduces_Skin_Damage.png?v=1636455537"
+                                alt="">
+                                <h1 class="product_heading_5">Reduces Skin</h1>
+                                <h1 class="product_heading_5">Damage</h1>
+                        </div>
+                        <div class="minibox_sample_img">
+                            <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Fades_Strech_Marks.png?v=1636455741"
+                                alt="">
+                                <h1 class="product_heading_5">Fades Strech</h1>
+                                <h1 class="product_heading_5">Marks</h1>
+                    </div>
+
+                </div>
+            </div>
+        </center>
+        <div id="box_container">
+            <h1 class="sub_main_heading_1">PERKS TO <i>LOVE</i></h1>
+            
+            <ul>
+                <li class="sub_heading_1"> Buy Products Worth Rs. 1499 Or More & Pick Your Free 5-in-1 Kit</li>
+                <li class="sub_heading_1">Buy Products Worth Rs. 899 Or More & Get A Cica Calming Night Gel - 15ml For Free.</li>
+                <li class="sub_heading_1">Upto 15% Off On Haircare + Free Detangling Brush on All Haircare Combos</li>
+                <li class="sub_heading_1">Flat 10% Off On Bodycare</li>
+                <li class="sub_heading_1">Extra 3% Off on Prepaid Orders</li>
+                <li class="sub_heading_1">10% Cashback on all orders</li>
+            </ul>
+        </div>
+        <div>
+            <p class="minipara_1">*Offers Not Valid On All Combos, Ikwi, Minis & Merch</p>
+        </div>
+
+        <div class="newdiv">
+            <h1>Made With <i> Love</i></h1>
+        </div>
+        <div>
+            <img class="down_img" src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/2-Cocoa-Body-Butter_1cdb3a0d-ce99-468a-98c9-55130b91542f.png?v=1638788914"
+                alt="">
+        </div>
+        <div class="newdiv">
+            <h1><i>Slather</i> Not Slurp</h1>
+        </div>
+        <div>
+            <img class="down_img" src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/cocoa_butter.jpg?v=1638789166" alt="">
+        </div>
+    </div>
+    
+<hr>
+</div>
+<div id="footer" >
+    <div id="foot1">
+        <h2 class="change_to_black">GET TO KNOW US</h2>
+        <a href="https://www.dotandkey.com/pages/about-us">ABOUT US</a>
+        <br>
+        <br>
+        <a href="https://www.dotandkey.com/pages/find-us">CONTACT US</a>
+        <br>
+        <br>
+        <a href="https://www.dotandkey.com/pages/terms-conditions">TERMS & CONDITION</a>
+        <br>
+        <br>
+        <a href="https://www.dotandkey.com/pages/refunds-cancellation">REFUND & CANCELLATION</a>
+        <br>
+        <br>
+        <a href="https://www.dotandkey.com/pages/privacy-policy">PRIVACY POLICY</a>
+        <br>
+        <br>
+        <a href="https://www.dotandkey.com/pages/orders-shipping">ORDERING & SHIPPING</a>
+        <br>
+        <br>
+        <a href="https://divas.dotandkey.com/">AFFILAATE PROGRAM</a>
+        <br>
+        <br>
+        <a href="https://www.dotandkey.com/pages/payment-terms">PAYMENT TERMS</a>
+        <br>
+        <br>
+        <a href="https://www.dotandkey.com/pages/csr">EARTTHCARE</a>
+        <br>
+        <br>
+        <a href="https://www.dotandkey.com/policies/terms-of-service">TERMS OF SERVICE</a>
+        <br>
+        <br>
+        <a href="https://www.dotandkey.com/policies/refund-policy">REFUND POLICY</a>
+    </div>
+    <div id="foot2">
+        <h2 class="change_to_black">ALSO AVAILABLE ON</h2>
+        <a href="https://www.nykaa.com/brands/dot-key/c/7675?root=search,brand_menu,brand_list,Dot%20&%20Key&sourcepage=home&rtqu=Dot%20%26%20Key">NYKAA</a>
+        <br>
+        <br>
+        <a href="https://www.amazon.in/stores/node/19401367031?_encoding=UTF8&field-lbr_brands_browse-bin=Dot%20%26%20Key&ref_=bl_dp_s_web_19401367031">AMAZON</a>
+        <br>
+        <br>
+        <a href="https://www.flipkart.com/search?q=dot%20and%20key&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">FLIPKART</a>
+        <br>
+        <br>
+        <a href="https://www.myntra.com/dot-and-key?src=bc">MYNTRA</a>
+        <br>
+        <br>
+        <a href="https://www.foxy.in/brands/dot-key">FOXY</a>
+    </div>
+    <div id="foot3">
+        <h2 class="change_to_black">STAY UPDATED</h2>
+        <div>
+            <input type="type" placeholder="example@example.com" style="text-decoration: solid;">
+            <input type="submit" placeholder="submit" style="background-color: black;color: white; text-decoration: none;">
+        </div>
+        <br>
+        <h4 class="change_to_black">FOLLOW US</h4>
+        <div id="footlogo" style="display: flex;">
+            
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvLJ_ZYhYAqnCQHOfJnP6lfiMOPwxTMOCkkQ&usqp=CAU" alt="" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtLWIAQ46DSaOf5y8eNeRHFYCmdEZIVY9diw&usqp=CAU" alt="">
+            <img src="https://www.seekpng.com/png/detail/328-3289308_black-youtube-icon-download-logo-youtube-grey.png" alt="">
+        </div>
+        <p class="change_to_black">© 2022 Dot & Key</p>
+    </div>
+</div>
+</body>
+
+</html>
+
+<script src="index.js"></script>

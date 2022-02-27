@@ -1,0 +1,103 @@
+ *{
+            /* margin:0;
+            padding: 0; */
+            box-sizing:border-box;
+        }
+        #header{
+            position:fixed;
+            top:0;
+            width:100%;
+            z-index:2;
+            margin:0;
+            padding: 0;
+        }
+        #top-bar{
+            width:100%;
+            height:30px;
+            color: white;
+            background-color:#3c3c3c;
+            vertical-align: center;
+            margin:0;
+            padding: 0;
+            
+        }
+        #top-bar > p{
+            font-size:13px;
+            line-height: 30px;
+            font-family:Ubuntu, sans-serif;
+            font-weight:700;
+            text-transform: uppercase;
+            /* padding:10px 0; */
+            text-align:center;
+            margin:0;
+            padding: 0;
+        }
+        #navbar{
+            background-color: white;
+            padding:10px 40px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #c3c3c3;
+        }
+        #logos{
+            margin: 0 26px;
+        }
+        #nav-icon{
+            flex:1 1 130px;
+        }
+        #header-icons{
+            flex:1 1 130px;
+        }
+        button{
+            border:none;
+            color: #3c3c3c;
+        }
+        #input-box,#bag-icon,#account-icon{
+            display: inline-block;
+            margin-left:10px;
+        }
+        #input-box >input{
+            border:1px solid #c3c3c3;
+            border-radius:5px;
+            background-color: transparent;
+            padding:0 30px;
+            height:38px;
+           min-width:300px;
+        }
+        #input-box{
+            
+            display:inline-block;
+            vertical-align: middle;
+            padding:7.5px 15px;
+            color:#3c3c3c;
+            white-space: nowrap;
+            position:relative;
+        }
+        #input-box > i{
+            position:absolute;
+            margin-top:10px;
+            margin-left:4px;
+            font-size:20px;
+        }
+        #input-box>input::placeholder{
+            font-size: 20px;
+        }
+        #bag-icon >.bagicon {
+            width:20px;
+            height:20px;
+        }
+        /* #account-icon > i{
+            padding: 0 10px;
+            color: #c3c3c3;
+        } */
+        .icon{
+            width:20px;
+            height:20px;
+        }
+        
+  a{
+      color:#c3c3c3;
+      
+  }
+       

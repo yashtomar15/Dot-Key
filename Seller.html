@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Seller</title>
+    <link rel="stylesheet" href="./style/product.css" />
+    <link rel="stylesheet" href="./style/manu.css" />
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="stylesheet" href="./style/bag.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+     <!-- navbar code start -->
+  <div id="nav_placeholder">
+
+</div>
+<script>
+  $(function(){
+    $("#nav_placeholder").load("navbar.html");
+  });
+// <!-- </script>
+  <!-- navbar code end -->
+
+     <img class="firstimg" src="https://cdn.shopify.com/s/files/1/0361/8553/8692/collections/shop-all_mobile_1296x.jpg?v=1642098283"
+        alt="">
+    <div id="container"></div>
+     <div id="show"></div>
+
+     <script src="./script/seller.js" ></script>
+
+     <!-- fotter code -->
+    <div id="footer_placeholder"></div>
+    <script>
+        $(function(){
+          $("#footer_placeholder").load("footer.html");
+        });
+    </script>
+    </body>
+</html>

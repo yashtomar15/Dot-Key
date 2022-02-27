@@ -1,0 +1,86 @@
+#form{
+    width:60%;
+    grid-template-rows: repeat(2,1fr);
+    margin: auto;
+    padding: 10px;
+}
+/*form tah with inside Div */
+#form > div {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    padding-top: 150px;
+}
+/* this the lable tag with class name "a" */
+.a
+{
+    font-size: 15px;
+    font-family:sans-serif;
+    padding:10px;
+    font-weight: bold;
+    color: #3c3c3c
+}
+/* create button using input submit tag */
+#btn{
+    width: 395px;
+    height: 43px;
+    padding: 9px 20px;
+    margin-top: 20px;
+    background-color: #3c3c3c;
+    color: white;
+}
+/* input tag box height increase */
+#email{
+    width: 387px;
+    height: 43px;
+    
+}
+#pass{
+    width: 387px;
+    height: 43px;
+    
+}
+/* Singup using facebook and Gmail */
+#form > div > #facebook_sign{
+    width: 390px;
+    height: 45px;
+    margin-top: 15px;
+    background-color:#4267B2;
+    border:none;
+    font-size: 15px;
+    color: white;
+}
+#form > div > #gmail_sign{
+    width: 390px;
+    height: 45px;
+    margin-top: 15px;
+    background-color:#EA4335;
+    border:none;
+    font-size:#EA4335;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: #3c3c3c;
+    margin-top: 20px;
+}
+#form > .a  > .smallTag > #rps {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 25px;
+    color: #3c3c3c;
+}
+small
+{
+text-align: right;
+text-decoration: none;
+
+}
+
