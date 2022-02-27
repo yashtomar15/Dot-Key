@@ -102,6 +102,7 @@
             var main = document.createElement("div")
             var image = document.createElement("img")
             image.setAttribute("src", elem.img)
+            image.style.cursor="pointer";
             image.setAttribute("onclick", `show(${x})`)
             var firstdiv = document.createElement("div")
             firstdiv.setAttribute("id", "ranking")
@@ -111,6 +112,7 @@
             heart.setAttribute("onclick", `like(${x})`)
             heart.setAttribute("class", `heart`)
             heart.innerText = "🤍"
+            heart.style.cursor="pointer";
             var titlePara = document.createElement("p")
             titlePara.innerHTML = elem.title
             var secondDiv = document.createElement("div")
@@ -124,6 +126,7 @@
             var button = document.createElement("button")
             button.setAttribute("onclick", `addCart(${x})`)
             button.innerHTML = "Add To Cart"
+            button.style.cursor="pointer";
             x++;
             firstdiv.append(rank, heart)
             secondDiv.append(wroPrice, raPrice)

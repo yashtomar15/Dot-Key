@@ -96,29 +96,3 @@ proddata.map(function displayprod(elm){
 document.querySelector(".prodslide").append(prodbox)
 })
 
-
-// var prodindex=1;
-// prodslides(prodindex);
-
-// function plusslide(m){
-//    prodslides(prodindex +=m);
-// }
-
-// function prodslides(m){
-//   var i;
-//   var slides=document.getElementsByClassName("prodcontain")
-//   if(m>slides.length){
-//     prodindex=1;
-//   }
-//   if(m<slides.length){
-//     m=slides.length;
-//   }
-//   for (i = 0; i < slides.length; i++) {
-//     slides[i].style.display = "none";  
-// }
-// // for (i = 0; i < dots.length; i++) {
-// //     dots[i].className = dots[i].className.replace(" active", "");
-// // }
-// slides[prodindex-1].style.display = "block";  
-// // dots[slideIndex-1].className += " active";
-// }
