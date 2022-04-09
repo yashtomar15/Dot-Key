@@ -9,8 +9,14 @@ It's an beauty care e-commerce website where user can come and buy products rela
 **Deployment**: https://zen-blackwell-cb60f7.netlify.app/home.html
 
 **Tech Stack**
+This will be not  
+inline.
 1.HTML
+This will be not  
+inline.
 2.CSS
+This will be not  
+inline.
 3.Javascript
 
 **Features**-
