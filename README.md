@@ -9,6 +9,7 @@ It's an beauty care e-commerce website where user can come and buy products rela
 **Deployment**: https://zen-blackwell-cb60f7.netlify.app/home.html
 
 **Tech Stack**
+
 1.HTML
 
 2.CSS
@@ -16,10 +17,11 @@ It's an beauty care e-commerce website where user can come and buy products rela
 3.Javascript
 
 **Features**-
-1.signin and signup Authentication.
-2. User can add product to cart.
-3. Many categories for products
-  Ex:3.1 haircare, beautcare, nutrition, Serum, moisturizer,etc.
+
+*1.signin and signup Authentication.
+*2. User can add product to cart.
+*3. Many categories for products
+ * Ex:3.1 haircare, beautcare, nutrition, Serum, moisturizer,etc.*
 
 # Page and responsibilities.
 
