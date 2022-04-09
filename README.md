@@ -9,7 +9,6 @@ It's an beauty care e-commerce website where user can come and buy products rela
 **Deployment**: https://zen-blackwell-cb60f7.netlify.app/home.html
 
 **Tech Stack**
-
 1.HTML
 
 2.CSS
