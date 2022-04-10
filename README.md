@@ -1,8 +1,8 @@
 # Dot-key
-<<<<<<< HEAD
+
 CW Project
 # cloning of Dot&Key website
-=======
+
 
 
 
@@ -81,5 +81,3 @@ CW Project
 
 
   
-
->>>>>>> 65a6d4d337947b2be1564f5226468575031ef852
