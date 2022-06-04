@@ -18,7 +18,7 @@ CW Project
 
 
 
-**Deployment**: https://zen-blackwell-cb60f7.netlify.app/home.html
+**Deployment**: https://dotandkey-cw.netlify.app/
 
 **Tech Stack**
 
